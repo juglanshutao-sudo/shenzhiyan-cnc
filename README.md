@@ -1,6 +1,8 @@
 # 金工实习 - 三轴加工「莉奈娅的神之眼」亚克力砖
 
-大学金工实习作品：以《原神》中「神之眼」为原型设计的亚克力雕刻件，包含从 SolidWorks 三维建模到 PowerMILL 三轴数控编程的完整流程文件。
+大学金工实习作品：以《原神》中「神之眼」为原型设计的亚克力雕刻件（80×80×9mm），包含从 SolidWorks 三维建模到 PowerMILL 三轴数控编程的完整流程文件。
+
+![模型预览](docs/preview.png)
 
 ## 内容结构
 
@@ -12,6 +14,8 @@
 │   └── ncprograms/           # 导出的 NC 加工程序（G 代码）
 │       ├── 1.nc
 │       └── 莉奈娅的神之眼.nc
+├── docs/preview.png          # 模型多角度渲染图
+└── scripts/render_preview.py # STL → 预览图渲染脚本（numpy + matplotlib）
 ```
 
 ## 使用方法
@@ -19,6 +23,7 @@
 1. **查看模型**：用 SolidWorks 打开 `莉奈娅的神之眼.SLDPRT`
 2. **查看刀路**：用 PowerMILL 打开 `powermill/莉奈娅的神之眼.pmlprj`，可查看粗加工、精加工等刀路策略
 3. **加工**：`ncprograms/` 下的 NC 程序用于三轴雕刻机加工亚克力板
+4. **渲染预览**：把模型导出 STL 后运行 `python scripts/render_preview.py model.STL out.png`（依赖 numpy、matplotlib）
 
 > ⚠️ NC 程序中的坐标系、刀具参数与原加工机床（三轴雕刻机）绑定，直接用于其他机床前请务必核对对刀点、转速与进给参数。
 
