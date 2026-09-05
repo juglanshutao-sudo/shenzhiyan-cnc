@@ -1,0 +1,26 @@
+type list
+version 0
+Toolpath\
+Toolpath\Model Area Clearance
+Toolpath\Constant Z Finishing
+Toolpath\Raster Flat Finishing
+Group\
+Pattern\
+Workplane\
+Setup\
+FeatureGroup\
+Boundary\
+Macro\
+Featureset\
+NCProgram\
+NCProgram\shenzhiyan
+Level\
+Level\Config-0-Partition
+Tool\
+Tool\D4-R
+Tool\D4-F
+Process\
+MachineTool\
+StockModel\
+Model\
+Model\zzr

@@ -1,0 +1,11 @@
+8 4 21030 1203007 64 # Entity Index (DO NOT EDIT!)
+0 2
+01 9ÔÂ 2026 12.05.02
+x1db039006a96484300001a1500000000.pmlent pmlEntModel 'zzr'
+x1db08fe06a964846000021ed00000000.pmlent pmlEntLevel 'Config-0-Partition'
+x1e19cdc06a964ec60004ac6300000000.pmlent pmlEntTool 'D4-R'
+x235723a06a964ecc0004c3ae00000000.pmlent pmlEntTool 'D4-F'
+x1e00bb406a964ece0004e1b700000000.pmlent pmlEntToolpath 'Model Area Clearance'
+x1db07fe06a964ed500051abf00000000.pmlent pmlEntToolpath 'Constant Z Finishing'
+x1e3ec6806a964eda00054e5900000000.pmlent pmlEntToolpath 'Raster Flat Finishing'
+x2bd299606a964eea0005c0d100000000.pmlent pmlEntNCProgram 'shenzhiyan'
